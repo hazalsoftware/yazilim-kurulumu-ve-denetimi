@@ -18,5 +18,7 @@ Yazılımın sisteme tanıtılması, yapılandırılması ve sistem kararlılı�
 
 ---
 **Hazırlayan:** Hazal Çorbacı
+
 **Eğitim:** Bilgisayar Programcılığı 1. Sınıf
+
 **Tarih:** 17.12.2025

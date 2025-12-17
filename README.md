@@ -3,7 +3,7 @@
 Bu proje, bir yazılımın yaşam döngüsü boyunca geçirdiği kurulum, yönetim ve denetim süreçlerini teknik bir perspektifle ele alır.
 
 ## 🚀 Projenin Kapsamı
-Yazılımın sisteme tanıtılması, yapılandırılması ve sistem kararlılığının korunması süreçlerini inceler[cite: 6, 8]. [cite_start]Sistemin verimli kullanılması ve güvenlik açıklarının minimize edilmesi temel hedeftir.
+Yazılımın sisteme tanıtılması, yapılandırılması ve sistem kararlılığının korunması süreçlerini inceler. Sistemin verimli kullanılması ve güvenlik açıklarının minimize edilmesi temel hedeftir.
 
 ### 🛠 Öne Çıkan Teknik Başlıklar
 * **Kurulum Metodolojileri:** Manuel süreçler, Sessiz (Silent) otomasyon, MSI/SCCM ile ağ üzerinden dağıtım ve Portatif (Portable) yapılar.

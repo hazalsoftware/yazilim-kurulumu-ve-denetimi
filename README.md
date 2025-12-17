@@ -14,7 +14,7 @@ Yazılımın sisteme tanıtılması, yapılandırılması ve sistem kararlılı�
 * **Temizlik ve Kararlılık:** Uninstall süreçleri, %AppData% optimizasyonu ve geçersiz Registry anahtarlarının temizliği.
 
 ## 📂 Dosya İçeriği
-* `PP SUNUMU.pdf`: Sunumun tarayıcı üzerinden görüntülenebilir versiyonu.
+* Sunumun tarayıcı üzerinden görüntülenebilir (PDF) versiyonu.
 
 ---
 **Hazırlayan:** Hazal Çorbacı

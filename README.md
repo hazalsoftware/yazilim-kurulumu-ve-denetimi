@@ -15,7 +15,6 @@ Yazılımın sisteme tanıtılması, yapılandırılması ve sistem kararlılı�
 
 ## 📂 Dosya İçeriği
 * `PP SUNUMU.pdf`: Sunumun tarayıcı üzerinden görüntülenebilir versiyonu.
-* `PP SUNUMU.pptx`: Sunumun düzenlenebilir orijinal dosyası.
 
 ---
 **Hazırlayan:** Hazal Çorbacı

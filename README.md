@@ -1,28 +1,46 @@
 # Yazılım Kurulumu, Yönetimi ve Denetim Süreçleri
 
-[cite_start]Bu çalışma, bir yazılımın bilgisayar sistemine tanıtılmasından güvenlik denetimlerine kadar olan tüm teknik süreçleri kapsar[cite: 1, 6].
+Sistem yönetimi ve yazılım yaşam döngüsü denetimi üzerine teknik bir inceleme.
 
-[cite_start]**Hazırlayan:** Hazal Çorbacı [cite: 3]  
-[cite_start]**Bölüm:** Bilgisayar Programcılığı 1. Sınıf [cite: 4]
+**Hazırlayan:** Hazal Çorbacı  
+**Bölüm:** Bilgisayar Programcılığı 1. Sınıf
 
-## 🛠 Teknik İçerik Summary
+---
+
+## 📝 Sunum Özeti
+Yazılım kurulumu; bir yazılımın bilgisayar sistemine tanıtılması, yapılandırılması ve çalışmaya hazır hale getirilmesi sürecidir. Bu sürecin doğru yönetilmesi, sistem kararlılığını korumak ve güvenlik açıklarını en aza indirmek için kritiktir.
+
+## ⚙️ Teknik Detaylar
 
 ### 1. Kurulum Yöntemleri
-* [cite_start]**Manuel Kurulum:** Kullanıcı onaylı standart süreç[cite: 13].
-* [cite_start]**Sessiz (Silent) Kurulum:** Arayüzsüz, otomatik kurulum[cite: 14].
-* [cite_start]**Ağ Üzerinden Dağıtım:** MSI ve SCCM ile merkezi yönetim[cite: 15].
-* [cite_start]**Portatif (Portable):** Kurulum gerektirmeyen yapılar[cite: 16].
+* **Manuel Kurulum:** Kullanıcı onayıyla ilerleyen standart yöntem.
+* **Sessiz (Silent) Kurulum:** Parametreler kullanılarak arayüzsüz yapılan otomatik işlem.
+* **Ağ Üzerinden Dağıtım:** Tek merkezden (MSI, SCCM) binlerce bilgisayara gönderim.
+* **Portatif (Portable):** Kurulum gerektirmeyen, doğrudan çalışan yapılar.
 
-### 2. Donanım ve Sistem Hazırlığı
-* [cite_start]**Gereksinimler:** CPU, RAM ve disk alanı kontrolü[cite: 20].
-* [cite_start]**Bağımlılıklar:** Java, .NET ve Python kütüphaneleri[cite: 21].
-* [cite_start]**İzinler:** Administrator yetkilerinin denetimi[cite: 22].
+### 2. Kurulum Öncesi Hazırlık
+* **Donanım Uyumluluğu:** CPU, RAM ve disk alanı kontrolleri.
+* **Yazılım Bağımlılıkları:** Java, .NET ve Python gibi kütüphanelerin kontrolü.
+* **Yedekleme:** Mevcut sistem verilerinin korunması.
 
-### 3. Güvenlik ve Doğrulama
-* [cite_start]**Bütünlük Kontrolü:** Dosya orijinalliği için SHA-256 Hash doğrulaması[cite: 48].
-* [cite_start]**Kimlik Doğrulama:** Dijital imza kontrolleri[cite: 49].
-* [cite_start]**İzolasyon:** Şüpheli yapıların Sandbox ortamında test edilmesi[cite: 50].
+### 3. Sistem Entegrasyonu ve Kayıt
+* **Kayıt Defteri (Registry):** Yazılım parametrelerinin işletim sistemine kaydedilmesi.
+* **Ortam Değişkenleri:** PATH tanımlamaları ile sistem genelinde erişim sağlama.
 
-### 4. Lisans ve Güncelleme Yönetimi
-* [cite_start]**Lisans Türleri:** Açık Kaynak (MIT, GNU), Ticari ve SaaS modelleri[cite: 34, 35, 36].
-* [cite_start]**Sürümleme:** Semantic Versioning (v2.1.0) ve kritik yamalar[cite: 42, 43].
+### 4. Lisans Modelleri
+* **Açık Kaynak:** Özgürce değiştirilebilen lisanslar (MIT, GNU).
+* **Ticari Yazılımlar:** Ücretli ve kullanım kısıtlamalı yapılar.
+* **SaaS:** Bulut tabanlı, abonelik usulü kullanım.
+
+## 🛡️ Güvenlik ve Denetim
+* **Hash Doğrulama:** Dosya orijinalliği için SHA-256 kontrolü.
+* **Dijital İmza:** Yayıncı kimliğinin doğrulanması.
+* **Sandbox:** Şüpheli yazılımların izole ortamda test edilmesi.
+* **Versiyonlama:** Yazılımın sürüm takibi (Semantic Versioning - v2.1.0).
+
+## 🧹 Yazılım Kaldırma
+* **Artık Dosyalar:** %AppData% ve Temp klasörlerindeki verilerin temizliği.
+* **Kayıt Defteri Temizliği:** Geçersiz anahtarların silinmesi.
+
+---
+> **Sonuç:** Doğru kurulum ve sıkı denetim,
